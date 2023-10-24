@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #7F00FF, #E100FF);
+}
+
+.main-box {
+  background-color: #403C3C;
+  width: 1000px;
+  height: 500px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  /* Added styles for tasks */
+}
+.main-box .inputs_container {
+  margin: 20px 0 20px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43.75rem;
+}
+.main-box .inputs_container input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding: 0 10px; /* Add padding to the left and right */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.main-box .inputs_container input::-moz-placeholder {
+  color: #999;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.main-box .inputs_container input::placeholder {
+  color: #999;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.main-box .inputs_container button {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #7F00FF, #E100FF);
+}
+.main-box .inputs_container button img {
+  width: 100px;
+  height: auto;
+}
+.main-box h1 {
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.main-box .updated_tasks {
+  margin: 20px 0 20px 70px;
+  display: flex;
+  flex-direction: column;
+}
+.main-box .task {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.main-box .task input {
+  width: 400px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.main-box .task button {
+  background: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
